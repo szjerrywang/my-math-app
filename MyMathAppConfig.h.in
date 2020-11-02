@@ -1,0 +1,7 @@
+#define MyMathApp_VERSION_MAJOR @MyMathApp_VERSION_MAJOR@
+#define MyMathApp_VERSION_MINOR @MyMathApp_VERSION_MINOR@
+#cmakedefine USE_MYMATH
+
+// does the platform provide exp and log functions?
+#cmakedefine HAVE_LOG
+#cmakedefine HAVE_EXP
